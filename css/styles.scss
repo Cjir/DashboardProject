@@ -1,0 +1,45 @@
+$color-primary: #3046C5;
+$color-secondary: #5637dd;
+$color-pale:  rgba(251, 247, 239, 1);
+$color-mid: #901CAD;
+$color-dark: rgba(22, 39, 25, 1);
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
+$body-font: "Raleway", sans-serif;
+$header-font: "Righteous", cursive;
+
+body {
+    font-family: $body-font;
+}
+
+h1, h2, h3 {
+    font-family: $header-font;
+}
+
+h2 {
+    color: #3046C5;
+}
+
+header h2 {
+    color: rgba(188, 71, 73 ,1);
+}
+
+.navbar {
+    background-color: rgba(22, 39, 25, 1);
+}
+
+footer {
+    background-color: rgba(22, 39, 25, 1);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-color: rgba(251, 247, 239, 1);
+    color: rgba(22, 39, 25, 1);
+}
+
+div .discover-content {
+    padding-top: 30px;
+}
+

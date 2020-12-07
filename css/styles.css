@@ -1,35 +1,26 @@
 body {
-    font-family: "Open Sans", sans-serif;
-}
+  font-family: "Raleway", sans-serif; }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
-}
+  font-family: "Righteous", cursive; }
 
 h2 {
-    color: #3046C5;
-}
+  color: #3046C5; }
 
 header h2 {
-    color: rgba(188, 71, 73 ,1);
-}
+  color: #bc4749; }
 
 .navbar {
-    background-color: rgba(22, 39, 25, 1);
-}
+  background-color: #162719; }
 
 footer {
-    background-color: rgba(22, 39, 25, 1);
-    padding: 20px 0;
-}
+  background-color: #162719;
+  padding: 20px 0; }
 
 .jumbotron {
-    padding: 30px;
-    background-color: rgba(251, 247, 239, 1);
-    color: rgba(22, 39, 25, 1);
-}
+  padding: 30px;
+  background-color: #fbf7ef;
+  color: #162719; }
 
 div .discover-content {
-    padding-top: 30px;
-}
-
+  padding-top: 30px; }
