@@ -1,26 +1,109 @@
 body {
-  font-family: "Raleway", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  background-color: #fbf7ef; }
 
 h1, h2, h3 {
   font-family: "Righteous", cursive; }
 
 h2 {
-  color: #3046C5; }
+  color: #162719; }
+
+header h1 {
+  color: #fbf7ef; }
 
 header h2 {
   color: #bc4749; }
 
 .navbar {
-  background-color: #162719; }
+  background-color: #162719;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  .navbar li {
+    font-weight: 500;
+    font-size: 12px;
+    color: white; }
+
+.jumbotron {
+  background-image: linear-gradient(to bottom, rgba(22, 39, 25, 0.6) 0%, rgba(22, 39, 25, 0.9) 100%), url("../img/blackboard.jpg"); }
+
+.discover-navigation input {
+  border-radius: unset;
+  border-color: lightgray;
+  font-size: 12px;
+  background-color: white; }
+
+.discover-navigation button {
+  background-color: white;
+  border-radius: unset;
+  border-color: lightgray;
+  color: darkgray;
+  font-size: 12px; }
+
+.discover-navigation .dropdown-menu {
+  border-radius: unset;
+  background-color: white; }
+
+.discover-navigation .dropdown-item {
+  color: gray;
+  font-size: 12px;
+  background-color: white; }
+
+.discover-content .col-2 {
+  margin-right: 20px; }
+
+.discover-content-fields h5 {
+  font-weight: bold;
+  color: #162719;
+  padding-top: 16px; }
+
+.discover-content-fields .card {
+  border-radius: unset;
+  font-size: 12px;
+  color: darkgray; }
+
+.discover-content-fields .list-group-item {
+  padding: .50rem 1rem; }
+
+.discover-content-fields button {
+  background-color: white;
+  border-radius: unset;
+  border-color: lightgray;
+  color: darkgray;
+  font-size: 12px;
+  margin: 2.5px; }
+
+.discover-card-content .row {
+  padding-top: 16px; }
+
+.discover-card {
+  border-radius: unset;
+  margin-bottom: 1.25rem; }
+  .discover-card a {
+    text-decoration: none; }
+  .discover-card h5 {
+    color: #162719;
+    font-weight: 500; }
+  .discover-card .card-title {
+    margin-bottom: 0.25rem; }
+  .discover-card .card-body {
+    padding: 0.5rem 1.25rem 0.25rem 1.25rem; }
+  .discover-card hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem; }
+  .discover-card p {
+    font-size: 12px;
+    color: #162719;
+    margin-bottom: 0; }
+  .discover-card .card-footer {
+    padding: .5rem; }
+    .discover-card .card-footer ul {
+      margin: 0rem; }
+  .discover-card #creator-link {
+    font-size: 12px;
+    color: #162719; }
+  .discover-card .d-inline {
+    margin-bottom: 0.5rem; }
 
 footer {
   background-color: #162719;
   padding: 20px 0; }
-
-.jumbotron {
-  padding: 30px;
-  background-color: #fbf7ef;
-  color: #162719; }
-
-div .discover-content {
-  padding-top: 30px; }
