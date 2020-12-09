@@ -19,9 +19,17 @@ header h2 {
   padding-top: 15px;
   padding-bottom: 15px; }
   .navbar li {
-    font-weight: 500;
+    font-weight: 900;
     font-size: 12px;
     color: white; }
+  .navbar .btn {
+    border-radius: unset;
+    color: lightgrey;
+    border-color: lightgray; }
+  .navbar .btn:hover {
+    border-color: #bc4749;
+    color: #bc4749;
+    background-color: #fbf7ef; }
 
 .jumbotron {
   background-image: linear-gradient(to bottom, rgba(22, 39, 25, 0.6) 0%, rgba(22, 39, 25, 0.9) 100%), url("../img/blackboard.jpg"); }
@@ -48,6 +56,11 @@ header h2 {
   font-size: 12px;
   background-color: white; }
 
+.discover-navigation button:hover {
+  color: #bc4749;
+  background-color: #fbf7ef;
+  border-color: #bc4749; }
+
 .discover-content .col-2 {
   margin-right: 20px; }
 
@@ -64,6 +77,11 @@ header h2 {
 .discover-content-fields .list-group-item {
   padding: .50rem 1rem; }
 
+.discover-content-fields .list-group-item:hover {
+  color: #bc4749;
+  background-color: #fbf7ef;
+  border-color: #bc4749; }
+
 .discover-content-fields button {
   background-color: white;
   border-radius: unset;
@@ -72,19 +90,34 @@ header h2 {
   font-size: 12px;
   margin: 2.5px; }
 
+.discover-content-fields button:hover {
+  color: #bc4749;
+  background-color: #fbf7ef;
+  border-color: #bc4749; }
+
 .discover-card-content .row {
   padding-top: 16px; }
 
 .discover-card {
   border-radius: unset;
   margin-bottom: 1.25rem; }
+  .discover-card img {
+    height: 120px;
+    max-height: 190px; }
   .discover-card a {
     text-decoration: none; }
+  .discover-card a:hover {
+    color: #bc4749; }
   .discover-card h5 {
     color: #162719;
     font-weight: 500; }
+  .discover-card h5:hover {
+    color: #bc4749; }
   .discover-card .card-title {
-    margin-bottom: 0.25rem; }
+    margin-bottom: 0.25rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; }
   .discover-card .card-body {
     padding: 0.5rem 1.25rem 0.25rem 1.25rem; }
   .discover-card hr {
@@ -93,14 +126,24 @@ header h2 {
   .discover-card p {
     font-size: 12px;
     color: #162719;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     margin-bottom: 0; }
   .discover-card .card-footer {
     padding: .5rem; }
     .discover-card .card-footer ul {
       margin: 0rem; }
+    .discover-card .card-footer li:hover {
+      color: #bc4749; }
   .discover-card #creator-link {
     font-size: 12px;
-    color: #162719; }
+    color: #162719;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; }
+  .discover-card #creator-link:hover {
+    color: #bc4749; }
   .discover-card .d-inline {
     margin-bottom: 0.5rem; }
 

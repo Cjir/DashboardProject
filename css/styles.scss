@@ -46,10 +46,22 @@ header {
     padding-top: 15px;
     padding-bottom: 15px;
     li {
-            font-weight: $font-medium;
+            font-weight: $font-bold;
             font-size: $fontsize-medium;
             color: white;
     }
+    .btn {
+        border-radius: unset;
+        color: lightgrey;
+        border-color: lightgray;
+        font-size: $fontsize-medium;
+    }
+    .btn:hover {
+        border-color: $color-mid;
+        color: $color-mid;
+        background-color: $color-pale;
+    }
+
 }
 
 .jumbotron {
@@ -80,6 +92,11 @@ header {
         font-size: $fontsize-medium;
         background-color: white;
     }
+    button:hover {
+        color:$color-mid;
+        background-color: $color-pale;
+        border-color: $color-mid;
+    }
 }
 
 // Discover Content Search Fields
@@ -104,6 +121,11 @@ header {
     .list-group-item {
         padding: .50rem 1rem;
     }
+    .list-group-item:hover {
+        color:$color-mid;
+        background-color: $color-pale;
+        border-color: $color-mid;
+    }
     button {
         background-color: white;
         border-radius: unset;
@@ -111,6 +133,11 @@ header {
         color: darkgray;
         font-size: $fontsize-medium;
         margin: 2.5px;
+    }
+    button:hover {
+        color:$color-mid;
+        background-color: $color-pale;
+        border-color: $color-mid;
     }
 }
 
@@ -121,20 +148,29 @@ header {
 }
 .discover-card {
         img {
-            max-width: 126px;
+            height: 120px;
             max-height: 190px;
         }
         border-radius: unset;
         a {
         text-decoration: none;
         }
+        a:hover {
+            color: $color-mid;
+        }
         margin-bottom: 1.25rem;
         h5 {
             color: $color-dark;
             font-weight: $font-medium;
         }
+        h5:hover {
+            color: $color-mid;
+        }
         .card-title {
                 margin-bottom: 0.25rem;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;   
         }
         .card-body {
             padding: 0.5rem 1.25rem 0.25rem 1.25rem;
@@ -146,6 +182,9 @@ header {
         p {
             font-size: $fontsize-medium;
             color: $color-dark;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;   
             margin-bottom: 0;
         }
         .card-footer {
@@ -153,10 +192,19 @@ header {
             ul {
                 margin: 0rem;
             }
+            li:hover {
+                color: $color-mid;
+            }
         }
         #creator-link {
             font-size: $fontsize-medium;
             color: $color-dark;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;   
+        }
+        #creator-link:hover {
+            color: $color-mid;
         }
         .d-inline {
             margin-bottom: 0.5rem
